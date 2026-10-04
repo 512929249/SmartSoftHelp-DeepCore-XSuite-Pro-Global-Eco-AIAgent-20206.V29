@@ -1,0 +1,12 @@
+D:\NET 10 NETCORE\SmartCore\DBUtility\bin\Debug\net10.0\DBUtility.deps.json
+D:\NET 10 NETCORE\SmartCore\DBUtility\bin\Debug\net10.0\DBUtility.dll
+D:\NET 10 NETCORE\SmartCore\DBUtility\bin\Debug\net10.0\DBUtility.pdb
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\DBUtility.csproj.AssemblyReference.cache
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\DBUtility.GeneratedMSBuildEditorConfig.editorconfig
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\DBUtility.AssemblyInfoInputs.cache
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\DBUtility.AssemblyInfo.cs
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\DBUtility.csproj.CoreCompileInputs.cache
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\DBUtility.dll
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\refint\DBUtility.dll
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\DBUtility.pdb
+D:\NET 10 NETCORE\SmartCore\DBUtility\obj\Debug\net10.0\ref\DBUtility.dll

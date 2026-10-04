@@ -1,0 +1,64 @@
+/* ==================== 
+   全局基础优化 
+   ==================== */
+html, body {
+    /* 1. 关键：字体抗锯齿，让字体边缘更平滑清晰 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* 2. 优化文本渲染速度和质量 */
+    text-rendering: optimizeLegibility;
+
+    /* 3. 基础字号与颜色 */
+    line-height: 1.6; /* 增加行高，提升阅读舒适度 */
+    
+    /* 4. 文本溢出与轮廓处理 */
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    outline: none;
+
+    /* 5. 文本字体 */
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #222222;
+}
+
+/* 全局盒子模型重置（推荐） */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==================== 
+   表单样式优化 
+   ==================== */
+
+/* 输入表单左边样式（标签文本） */
+.lab {
+    font-size: 14px;
+    outline: none;
+}
+
+/* 输入表单填充样式（输入框） */
+.inputcss {
+    font-size: 14px;
+    background-color: #F2F2F2;
+    outline: none;
+}
+
+/* 输入表单聚焦状态 */
+.inputcss:focus {
+    font-size: 14px;
+    border-bottom-style: solid;
+    border-bottom-color: #F7F7F7; /* 建议检查颜色对比度，浅色在浅灰背景上可能看不清 */
+    border-bottom-width: 2px;
+    outline: none;
+}
+
+/* 表单项目字段（右对齐标签） */
+.labcss {
+    text-align: right;
+    outline: none;
+}

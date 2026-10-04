@@ -1,0 +1,71 @@
+ 
+/* 搜索区域样式 */ 
+.search-container { 
+display: flex; 
+align-items: center; 
+gap: 10px; 
+margin: 4px; 
+} 
+
+.search-input-wrapper { 
+flex: 1; 
+min-width: 0; 
+} 
+
+.search-input-wrapper .mui-input-row { 
+margin: 0; 
+} 
+
+.search-input-wrapper input { 
+margin: 2px; 
+height: 40px;
+line-height:20px; 
+padding: 10px 15px; 
+} 
+ 
+.search-btn-wrapper { 
+flex-shrink: 0; 
+} 
+
+.search-btn-wrapper .mui-btn { 
+margin: 0; 
+height: 40px; 
+padding: 10px 20px; 
+line-height: 20px; 
+white-space: nowrap; 
+} 
+ /* 分页控件样式，适配移动端 */
+        .pagination-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0;
+            background: #fff;
+            border-top: 1px solid #eee;
+            margin-top: 5px;
+        }
+
+            .pagination-bar .mui-btn {
+                width: auto;
+                padding: 6px 16px;
+                font-size: 14px;
+                margin: 0 5px;
+            }
+
+            .pagination-bar .page-info {
+                font-size: 14px;
+                color: #666;
+                margin: 0 10px;
+                white-space: nowrap;
+            }
+
+            .pagination-bar .mui-btn:disabled {
+                opacity: 0.5;
+            }
+
+        .empty-tip {
+            text-align: center;
+            color: #999;
+            padding: 40px 0;
+            font-size: 14px;
+        } 

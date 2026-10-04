@@ -1,0 +1,29 @@
+/* 1. 重置行高，强制使用弹性盒子布局，保证垂直居中对齐 */
+    .mui-input-row.lab {
+        display: flex !important;      /* 启用 Flex 布局 */
+        align-items: center !important; /* 保证左右两边的文字绝对垂直居中 */
+        height: 50px;                  /* 统一每一行的高度 */
+        padding: 0 15px;               /* 左右稍微留点边距 */
+        box-sizing: border-box;
+    }
+    
+    /* 清除 MUI 默认给 label 的绝对定位，否则 flex 会失效 */
+    .mui-input-row.lab label.labcss {
+        position: static !important;
+        width: 35%;                    /* 左侧“编号：”等文字占 35% 的宽度 */
+        text-align: right;             /* 文字靠右对齐，看起来更整齐 */
+        padding-right: 10px;           /* 文字和冒号距离右边内容远一点 */
+        font-size: 15px;
+        line-height: normal;           /* 清除默认行高 */
+        float: none !important;
+    }
+
+    /* 2. 右侧显示具体数据的样式 */
+    .mui-input-row.lab .mui-input-labcss {
+        width: 65%;                    /* 右侧数据占据剩下的 65% 宽度 */
+        text-align: left;              /* 数据文字左对齐（如果想整体居中可改为 center） */
+        font-size: 15px;
+        color: #333;
+        word-break: break-all;         /* 防止长英文/长链接撑破布局 */
+        line-height: normal;
+    }

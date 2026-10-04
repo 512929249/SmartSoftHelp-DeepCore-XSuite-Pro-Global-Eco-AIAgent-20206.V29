@@ -1,0 +1,6 @@
+D:\smartsofthelp v3.0\smartsofthelp2.02022-12-30-16-55\smartsofthelp2.0\SmartSqlserver - 2.0-2022-12-24\SmartSqlserver - 2.0\SmartCode\bin\Release\SmartCode.dll
+D:\smartsofthelp v3.0\smartsofthelp2.02022-12-30-16-55\smartsofthelp2.0\SmartSqlserver - 2.0-2022-12-24\SmartSqlserver - 2.0\SmartCode\bin\Release\SmartCode.pdb
+D:\smartsofthelp v3.0\smartsofthelp2.02022-12-30-16-55\smartsofthelp2.0\SmartSqlserver - 2.0-2022-12-24\SmartSqlserver - 2.0\SmartCode\obj\Release\SmartCode.csproj.AssemblyReference.cache
+D:\smartsofthelp v3.0\smartsofthelp2.02022-12-30-16-55\smartsofthelp2.0\SmartSqlserver - 2.0-2022-12-24\SmartSqlserver - 2.0\SmartCode\obj\Release\SmartCode.csproj.CoreCompileInputs.cache
+D:\smartsofthelp v3.0\smartsofthelp2.02022-12-30-16-55\smartsofthelp2.0\SmartSqlserver - 2.0-2022-12-24\SmartSqlserver - 2.0\SmartCode\obj\Release\SmartCode.dll
+D:\smartsofthelp v3.0\smartsofthelp2.02022-12-30-16-55\smartsofthelp2.0\SmartSqlserver - 2.0-2022-12-24\SmartSqlserver - 2.0\SmartCode\obj\Release\SmartCode.pdb

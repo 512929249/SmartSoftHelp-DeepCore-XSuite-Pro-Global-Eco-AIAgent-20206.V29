@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SmartSoftHelp DeepCore XSuite  详细使用教程</title>
+    <style>
+        html,
+        body {
+            margin: 8px auto;
+            text-align: center;
+            width: 98%;
+            padding: 0px;
+            font-family: Tahoma, Verdana, SimSun;
+            font-size: 14px;
+            line-height: 28px;
+            color: #615951;
+            background-color: #FFFAE8;
+            outline: none;
+            letter-spacing: 2px;
+        }
+
+        .smarttittle {
+            font-family: SimSun;
+            font-size: 15px;
+            color: #615951;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+            padding: 2px;
+            margin: 6px;
+        }
+
+        .lhr {
+            width: :100%;
+            height: 36px;
+            background-color: #99cc00;
+            border: 0px;
+            margin: 0px;
+            outline: none;
+        }
+
+        p {
+            text-align: left;
+            margin: 6px;
+        }
+
+        .video {
+            text-align: left;
+            width: 100%;
+            clear: both;
+            padding: 2px;
+            margin: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="smarttittle">SmartSoftHelp DeepCore XSuite  代码生成详细使用教程</div>
+    <hr class="lhr" />
+
+    <P style="font-weight: bolder;">NetCore代码生成{Ado.Coding} 菜单</P>
+    <p>
+        <font color="#66CCFF"> *NetCore 原生SQL经典<strong>三层架构</strong>代码快速生成>>>>></font>
+    </p>
+    <p>
+        <font color="#ff9900">NetCore</font>平台如下操作:
+    </p>
+    <p>1.新建解决方案</p>
+    <p>2.新建 <strong>DBUtility</strong>(类库->这里放数据库操作类<font color="#FFCC00">DbHelper</font>)</p>
+    <p>3.新建 <strong>Common</strong>(类库->公共类库-类似<font color="#999999">smart_common_plus</font>)</p>
+    <p>4.新建 <strong>Model</strong>(实体层-类库)</p>
+    <p>5.新建 <strong>DAL</strong>(数据接口层-类库->添加对<strong>Common，DBUtility，Model</strong>的引用)</p>
+    <p>6.新建 <strong>BLL</strong> (业务逻辑层-类库->添加对<strong>DAL</strong>的引用) </p>
+    <p>
+        7.新建
+        <strong>Web</strong>项(UI-Web展示层->同时添加对<strong>DBUtility</strong>，<strong>Common</strong>，<strong>Model</strong>，<strong>DAL</strong>，<strong>BLL</strong>的引用，生成的<strong>UI</strong>文件添加到UI目录)
+    </p>
+    <p>生成的代码分别对应添加<font color="#CCCC99">(复制到对应目录下)</font>到项目中即可</p>
+    <div class="video"><font style="background-color: #99cc00; padding: 8px; margin: 3px; ">教程：</font><a href="https://blog.csdn.net/qq512929249">SmartSoftHelp NetCore原生SQL经典三层架构代码生成教程？</a></div>
+    <hr class="lhr" />
+
+    <P style="font-weight: bolder;">NetFramework代码生成{Ado.Coding} 菜单</P>
+    <p>
+        <font color="#66CCFF"> *NetFramework 原生SQL经典<strong>三层架构</strong>代码快速生成>>>>></font>
+    </p>
+    <p>
+        <font color="#ff9900">NetFramework</font>平台如下操作：
+    </p>
+    <p>1.新建解决方案</p>
+    <p>2.新建 <strong>DBUtility</strong>(类库->这里放数据库操作类<font color="#FFCC00">DbHelper</font>)</p>
+    <p>
+        3.新建 <strong>Common</strong>(类库->公共类库[<font color="#999999">对应-MX复用功能代码宝典{CodeCollection}菜单</font>
+        ->smart_common_plus.dll])
+    </p>
+    <p>4.新建 <strong>Model</strong>(实体层-类库)</p>
+    <p>5.新建 <strong>DAL</strong>(数据接口层-类库->添加对<strong>Common，DBUtility，Model</strong>的引用)</p>
+    <p>6.新建 <strong>BLL</strong> (业务逻辑层-类库->添加对<strong>DAL</strong>的引用) </p>
+    <p>
+        7.新建
+        <strong>Web</strong>项(UI-Web展示层->同时添加对<strong>DBUtility</strong>，<strong>Common</strong>，<strong>Model</strong>，<strong>DAL</strong>，<strong>BLL</strong>的引用，生成的<strong>UI</strong>文件添加到UI目录)
+    </p>
+    <p>生成的代码添加<font color="#CCCC99">(复制到对应目录下)</font>到项目中即可</p>
+
+    <div class="video"> <font style="background-color: #99cc00; padding: 8px; margin: 3px; ">教程：</font><a href="https://blog.csdn.net/qq512929249">SmartSoftHelp NetFramework原生SQL经典三层架构代码生成教程？</a></div>
+
+    <hr class="lhr" />
+
+    <P style="font-weight: bolder;">NetCore.EF代码生成{EF.Coding} 菜单</P>
+    <p>
+        <font color="#66CCFF"> *NetCore EF<strong>持久架构</strong>代码快速生成>>>>></font>
+    </p>
+    <p>
+        <font color="#ff9900">NetCore</font>平台如下操作:
+    </p>
+    <p>1.新建解决方案</p>
+    <p>2.新建NetCore Web项目</p>
+    <p>3.按照<strong>Entities</strong>生成实体模型</p>
+
+    <p>生成的代码分别对应添加<font color="#CCCC99">(复制到对应目录下)</font>到项目中即可</p>
+    <div class="video"> <font style="background-color: #99cc00; padding: 8px; margin: 3px; ">教程：</font><a href="https://blog.csdn.net/qq512929249">SmartSoftHelp NetCore EF ORM持久架构代码生成教程？</a></div>
+
+    <hr class="lhr" />
+
+    <P style="font-weight: bolder;">NetFramework.EF代码生成{EF.Coding} 菜单</P>
+    <p>
+        <font color="#66CCFF"> *NetFramework EF<strong>持久架构</strong>代码快速生成>>>>></font>
+    </p>
+    <p>
+        <font color="#ff9900">NetFramework</font>平台如下操作:
+    </p>
+    <p>1.新建解决方案</p>
+    <p>
+        2.新建 <strong>Common</strong>(类库>公共类库[<font color="#999999">MX复用功能代码宝典{CodeCollection}菜单</font>
+        ->smart_common_plus.dll])
+    </p>
+    <p>3.新建 NetFramework Web项目，生成的UI文件添加到UI目录</p>
+    <P>4.新建 DBfirst EF 实体模型</P>
+    <p>生成的代码分别对应添加<font color="#CCCC99">(复制到对应目录下)</font>到项目中即可</p>
+    <div class="video"> <font style="background-color: #99cc00; padding: 8px; margin: 3px; ">教程：</font><a href="https://blog.csdn.net/qq512929249">SmartSoftHelp NetFramework EF ORM持久架构代码生成教程？</a></div>
+
+    <hr class="lhr" />
+
+    <P style="font-weight: bolder;">LDS大数据高并发{BigDataHightQPS.Api} 菜单</P>
+    <p>
+        <font color="#66CCFF"> *NetCore <strong>原生SQL 或者 EF 异步API</strong>代码快速生成>>>>></font>
+    </p>
+    <p>
+        <font color="#ff9900">NetCore</font>平台如下操作：
+    </p>
+    <p>1.新建解决方案</p>
+    <p>
+        2.新建 <strong>NetCore</strong>
+        <font color="#009900">异步原生SQL操作</font>类(对应<font color="#FFCC00">DbHelperSQLAsync</font>)
+    </p>
+    <p>3.新建 NetCore <strong>API</strong>接口(对应API① 原生SQL异步接口)</p>
+    <P>4.或者新建<strong>EF ORM </strong>生成实体模型(操作对应<font color="#FFCC00">Entities</font>)</P>
+    <p>
+        5.新建 NetCore<font color="#009900"> <strong>EF</strong> 异步操作</font>类（对应<font color="#FFCC00">
+            DbHelperAsync
+        </font>)
+    </p>
+    <p>6.新建 <strong>API</strong>接口(对应API② EF异步接口)</p>
+    <p>7.新建 <strong>Web</strong> UI层，生成的<strong>UI</strong>文件添加到UI目录</p>
+    <p>生成的代码分别对应添加<font color="#CCCC99">(复制到对应目录下)</font>到项目中即可</p>
+    <div class="video"> <font style="background-color: #99cc00; padding: 8px; margin: 3px; ">教程：</font><a href="https://blog.csdn.net/qq512929249">SmartSoftHelp DeepCore XSuite 原生SQL异步API， 或者EF异步API，大数据高并发接口开发教程？</a></div>
+    <hr class="lhr" />
+
+    <P style="font-weight: bolder;">OS开源SmartSoftHelp DeepCore XSuite 开源代码生成 菜单</P>
+    <p>
+        <font color="#66CCFF"> *NetCore <strong>自定义自编码开源</strong>代码快速生成>>>>></font>
+    </p>
+    <p>
+        <font color="#ff9900">NetCore</font>平台如下操作：
+    </p>
+
+    <p>
+        1.目录SmartOpenCode\\SmartCode 请使用 Microsoft Visual Studio 2015或以上版本  双击打开 <strong>SmartCode.csproj</strong>
+    </p>
+    <p>2.启动程序SmartSoftHelp DeepCore XSuite.exe</p>
+    <p>3.返回 Visual Studio 调试->附加到进程<font color="#FFCC00">SmartSoftHelp.exe</font></p>
+    <P>4.返回<font color="#FFCC00">SmartSoftHelp DeepCore XSuite.exe</font> > 工具 ><font color="#FFCC00"> OS 开源SmartSoftHelp DeepCore XSuite开源生成{OpenSource} 菜单</font></P>
+    <p>5.运行程序<font color="#FFCC00">SmartCode</font>源码，添加 <font color="#FFCC00">SmartCode</font> 程序断点即可调试程序了</p>
+    <p>6.开源代码重新编写以后，发布编译生成的<font color="#FFCC00">SmartCode.dll</font>，替换运行目录的原来文件即可</p>
+
+    <div class="video"> <font style="background-color: #99cc00; padding: 8px; margin: 3px; ">教程：</font><a href="https://blog.csdn.net/qq512929249">SmartSoftHelp DeepCore XSuite OS开源SmartSoftHelp DeepCore XSuite 开源代码生成教程？</a></div>
+    <hr class="lhr" />
+    <div>
+        <font color="#666666">SmartSoftHelp DeepCore XSuite Magic EIf. CopyRight@SmartSoftHelp魔法精灵工作室 作者：刘江波</font>
+    </div>
+</body>
+</html>
